@@ -1,8 +1,8 @@
-import { Camera, Share2 } from 'lucide-react';
-import QR from '../assets/QR.svg';
+import { Camera, Share2 } from "lucide-react";
+import QR from "../assets/QR.svg";
 
 export function QRCodeSection() {
-  const driveUrl = 'https://photos.app.goo.gl/j3b5pWgEbd6eq9vaA';
+  const driveUrl = "https://photos.app.goo.gl/j3b5pWgEbd6eq9vaA";
 
   return (
     <section id="share" className="py-20 bg-white">
@@ -12,7 +12,8 @@ export function QRCodeSection() {
             ¡Compartí tus fotos!
           </h2>
           <p className="text-gray-600">
-            Escanea el código QR para subir tus fotos a nuestro álbum compartido
+            Queremos tener cada recuerdo de esa noche, así que, el día de la
+            boda subí tus fotos a nuestro albúm
           </p>
         </div>
 
