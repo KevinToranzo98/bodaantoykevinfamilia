@@ -15,7 +15,7 @@ export function PricingSection() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-1 gap-8 max-w-4xl px-24 mx-auto">
+        <div className="grid md:grid-cols-1 gap-8 max-w-4xl px-2 mx-auto md:px-24">
           <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
             <div className="bg-[#fdf5e0] p-6">
               <h3 className="text-primary text-2xl font-dancing text-center">
