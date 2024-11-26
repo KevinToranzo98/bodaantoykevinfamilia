@@ -1,11 +1,11 @@
-import { Calendar } from 'lucide-react';
-import { PhotoGroup } from './PhotoGroup';
-import backgroundImage from '/src/assets/fondo6.jpg';
-import mainOne from '/src/assets/Foto1.jpg';
-import mainTwo from '/src/assets/Foto3.jpg';
-import photoOne from '/src/assets/Foto5.jpg';
-import photoTwo from '/src/assets/Foto2.jpg';
-import photoTree from '/src/assets/Foto4.jpg';
+import { Calendar } from "lucide-react";
+import { PhotoGroup } from "./PhotoGroup";
+import backgroundImage from "/src/assets/fondo6.jpg";
+import mainOne from "/src/assets/Foto1.jpg";
+import mainTwo from "/src/assets/Foto3.jpg";
+import photoOne from "/src/assets/Foto5.jpg";
+import photoTwo from "/src/assets/Foto2.jpg";
+import photoTree from "/src/assets/Foto4.jpg";
 
 export function HeroSection() {
   const leftGroupPhotos = {
@@ -13,13 +13,13 @@ export function HeroSection() {
     floating: [
       {
         src: photoOne,
-        position: '-top-10 -left-10',
-        delay: '0s',
+        position: "-top-10 -left-10",
+        delay: "0s",
       },
       {
         src: photoTwo,
-        position: '-bottom-10 -right-10',
-        delay: '1s',
+        position: "-bottom-10 -right-10",
+        delay: "1s",
       },
     ],
   };
@@ -29,8 +29,8 @@ export function HeroSection() {
     floating: [
       {
         src: photoTree,
-        position: '-bottom-10 -left-10',
-        delay: '0.5s',
+        position: "-bottom-10 -left-10",
+        delay: "0.5s",
       },
     ],
   };
@@ -69,7 +69,7 @@ export function HeroSection() {
             </p>
             <div className="flex items-center justify-center space-x-2 text-gray-700">
               <Calendar className="w-6 h-6" />
-              <p className="text-xl">12/04/2025</p>
+              <p className="text-xl">12 / 04 / 2025</p>
             </div>
           </div>
 
