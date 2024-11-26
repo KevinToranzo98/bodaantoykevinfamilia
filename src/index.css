@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+a.underline {
+  text-decoration: underline !important;
+}
+
+/* Custom styling for form elements */
+input[type='text'],
+select {
+  @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-rose-500 focus:ring-rose-500;
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+}
+
+input[type='radio'] {
+  @apply text-rose-600 focus:ring-rose-500;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
